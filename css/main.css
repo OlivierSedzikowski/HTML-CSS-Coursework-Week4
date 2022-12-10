@@ -1,3 +1,15 @@
-/* Add your CSS here */
+.footer {
+    color :blue;
+}
 
-/* Dont' forget to link this file to your HTML in the <head> */
+.p1 {
+    color :blueviolet;
+    font-size: x-large;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+} 
+h1 {
+    font-size: xxx-large;
+}
