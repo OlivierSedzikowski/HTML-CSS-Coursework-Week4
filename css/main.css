@@ -1,15 +1,164 @@
-.footer {
-    color :blue;
+:root {
+  --darkBeige: #e6dacd;
+  --lightBeige: #f4ece6;
+  --royalBlue: #0150fd;
+  --black: #000;
+  --white: #fff;
+}
+
+/* fonts */
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.quicksand {
+    font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited{
+    color: gray;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  text-align: right;
+  padding: 5px 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: left;
+}
+
+.blue-box {
+  width: 10px;
+  height: 10px;
+  background-color: var(--royalBlue);
+  margin: auto;
 }
 
 .p1 {
-    color :blueviolet;
-    font-size: x-large;
+  color: var(--royalBlue);
+  font-size: x-large;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  padding: 0px 10px;
 }
+
+.p2 {
+  font-family: "Quicksand", sans-serif;
+  margin: auto;
+}
+
+.grid-container-1 {
+  display: flex;
+}
+
+.grid-1 {
+  background-color: var(--darkBeige);
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+  line-height: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-2 {
+  padding: 10px;
+  width: 500px;
+  text-align: left;
+}
+
+.social-icons {
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+  padding: 5px;
+}
+
 .icon {
-    width: 25px;
-    height: 25px;
-} 
+  width: 25px;
+  height: 25px;
+  padding: 2px 5px;
+}
 h1 {
-    font-size: xxx-large;
+  font-size: xxx-large;
+  font-family: "Poppins", sans-serif;
+}
+
+.bt-resume {
+  background-color: var(--royalBlue);
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--white);
+  font-weight: bold;
+}
+.bt-resume:hover {
+  background-color: var(--white);
+}
+
+.bt-projects {
+  background-color: var(--white);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bt-projects:hover {
+  background-color: var(--royalBlue);
+  color: var(--white);
+}
+
+.btn-list {
+  list-style: none;
+}
+
+.profile {
+  border-radius: 100px;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.link {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.grid-container-2 {
+  text-align: right;
+  padding: 5px;
+  display: flex;
+}
+
+/* footer */
+
+.footer {
+  color: var(--royalBlue);
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-bottom: auto;
+}
+
+.social-footer {
+  list-style: none;
+}
+
+.grid-item {
+  padding: 5px;
+  color: var(--black);
+  text-align: center;
+}
+
+.copyright {
 }
