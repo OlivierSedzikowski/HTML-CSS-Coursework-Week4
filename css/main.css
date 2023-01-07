@@ -8,19 +8,19 @@
 
 /* fonts */
 .poppins {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .quicksand {
-    font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
-a:visited{
-    color: gray;
+a:visited {
+  color: gray;
 }
 
 .header {
@@ -138,6 +138,21 @@ h1 {
   text-align: right;
   padding: 5px;
   display: flex;
+}
+
+/* resume */
+
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill {
+  display: flex;
+}
+
+.p-skill {
+  padding: 0px 10px;
 }
 
 /* footer */
